@@ -1,0 +1,23 @@
+/* src/components/TaskList.css */
+
+div.task-list {
+  margin-top: 20px;
+}
+
+.task-list h2 {
+  color: #2c3e50;
+  margin-left: 15px;
+}
+
+.task-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-list li {
+  background-color: #ecf0f1;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
