@@ -10,8 +10,8 @@ const App = () => {
     id: 1,
     title: 'Develop App',
     description: 'Develop a Full Stack Application with React, Spring Boot & MongoDB',
-    dueDate: '15-Jan-24',
-    status: 'In progress'
+    dueDate: '13-Jan-24',
+    status: 'completed'
   },{
     id: 2,
     title: 'Deploy App',

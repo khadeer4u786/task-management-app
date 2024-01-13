@@ -14,10 +14,31 @@ div.task-list {
   padding: 0;
 }
 
-.task-list li {
+.task-item {
   background-color: #ecf0f1;
   padding: 15px;
   margin-bottom: 10px;
   border-radius: 5px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-info {
+  flex: 1;
+}
+
+.task-status {
+  margin-left: 10px;
+}
+
+.task-completed {
+  color: #27ae60;
+  font-weight: bold;
+}
+
+.task-due-date {
+  color: #e74c3c;
+  font-weight: bold;
 }
